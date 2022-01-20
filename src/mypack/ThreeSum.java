@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 class ThreeSum {
-    public List<List<Integer>> threeSum(int[] nums) {
+    public static List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
         List<List<Integer>> result = new ArrayList();
         int count = 0;
